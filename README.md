@@ -8,7 +8,7 @@
 CLI miner expects you to have node.js installed of version >= 18 [node.js](https://nodejs.org/en/download/package-manager)
 
 ```
-git clone https://github.com/suidouble/sui_meta_miner.git
+git clone https://github.com/tinnguyen162002/miner.git
 cd sui_meta_miner
 npm install
 ```
