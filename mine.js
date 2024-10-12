@@ -122,10 +122,10 @@ const run = async () => {
             try {
                 const amount = await checkAmount(); // Kiểm tra giá trị amount
 
-                if (amount === "5933959960") { // Nếu amount khớp
+                if (amount === "2966979980") { // Nếu amount khớp
                     if (amount !== previousAmount) { // Nếu amount thay đổi
                         previousAmount = amount;
-                        console.log('Mining successful with amount 5933959960');
+                        console.log('Mining successful with amount 2966979980');
                         await minerInstance.mine(); // Chạy mining
                     } else {
                         console.log('Amount unchanged, continuing mining...');
